@@ -1,0 +1,2 @@
+goal_converter
+-DCATKIN_DEVEL_PREFIX=/Guoyulun/Code/msgs_convert_ws/devel -DCMAKE_INSTALL_PREFIX=/Guoyulun/Code/msgs_convert_ws/install -G Unix Makefiles

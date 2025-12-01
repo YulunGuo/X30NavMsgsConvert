@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="goal_converter" type="goal_converter_node" name="goal_converter" output="screen">
+        <!-- 输入话题（geometry_msgs/PoseStamped） -->
+        <remap from="/move_base/goal_pose" to="/move_base_simple/goal_pose"/>
+        
+        <!-- 输出话题（move_base_msgs/MoveBaseActionGoal） -->
+        <remap from="/move_base/goal" to="/move_base/goal"/>
+        
+        <!-- 日志级别 -->
+        <param name="log_level" value="INFO" />
+    </node>
+</launch>

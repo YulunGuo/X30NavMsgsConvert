@@ -1,0 +1,8 @@
+prefix=/Guoyulun/Code/msgs_convert_ws/devel
+
+Name: goal_converter
+Description: Description of goal_converter
+Version: 0.0.0
+Cflags: -I/Guoyulun/Code/msgs_convert_ws/src/goal_converter/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs geometry_msgs move_base_msgs actionlib_msgs
